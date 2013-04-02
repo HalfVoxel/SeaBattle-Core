@@ -1,0 +1,10 @@
+# Secret key
+# ~~~~~
+application.secret="secret key"
+
+# Database configuration
+# ~~~~~ 
+db.default.driver=org.postgresql.Driver
+db.default.url="jdbc:postgresql://localhost/seabattle"
+db.default.user="user"
+db.default.password="password"
