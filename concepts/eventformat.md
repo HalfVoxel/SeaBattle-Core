@@ -9,17 +9,20 @@ would have taken effect).
 
 Example event list for one ship
 =========
+```
 { type: move, dir: 0}, //Move straight forward
 { type: move, dir: 1}, //Turn right
 { type: move, dir: 1}, //Turn right
 { type: fire, dir: -1}, //Fire to the left
 { type: move, dir: 0}, //Move straight forward
-
+```
 
 Processed result from the server
 ========
+```
 { type: move, dir: 0}, //Kör rakt fram
 { type: move, dir: 1}, //Turn right
 { type: move, dir: 1}, //Turn right
 { type: fire, dir: -1}, //Fire to the left
 {type: collision, time: 0.6, chained: { type: move, dir: 0}}, //Collision with another ship at time 0.6 (after the begining of this event) while moving forwards.
+``
