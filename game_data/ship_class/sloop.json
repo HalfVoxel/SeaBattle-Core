@@ -1,21 +1,18 @@
 {
-    //Localized ship name
     "name" : {
         "en" : "Sloop",
         "sv" : "Slup"
     },
-    //Fog of war radius
     "fog_of_war": 4,
     "cargo" : {
-        //Cargo capacity (kg)
         "capacity" : 1000
     },
     "firing" : {
         "loading" : {
-            "speed" : 4, //Number of 1/10 cannon balls per tick
-            "cannons" : 4 //Max number of loaded cannon balls
+            "speed" : 4,
+            "cannons" : 4
         },
-        "distance" : 4 //Distance of cannon balls
+        "distance" : 4
     },
-    "stamina" : 6 //Stamina points for the ship
+    "stamina" : 6
 }
