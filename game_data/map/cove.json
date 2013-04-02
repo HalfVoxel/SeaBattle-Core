@@ -1,0 +1,48 @@
+{
+    //Least number of players on this map
+    "min_players": 2,
+    //Most number of players on this map
+    "max_players": 2,
+    //Localized map name
+    "name": {
+        "en": "Treasure Cove",
+        "sv": "Skattviken"
+    },
+    //Size of map in rows x cols (y/x)
+    "rows": 50,
+    "cols": 50,
+    //Spawn details
+    "spawn": {
+        //Spawn of player 1
+        "1": {
+            "islands": [
+                {"name": "Anona"}
+            ],
+            "ships": [
+                {"class": "sloop", "pos": [9, 10]}
+            ]
+        },
+        //Spawn of player 2
+        "2": {
+            "islands": [
+                {"name": "Bythiton"}
+            ],
+            "ships": [
+                {"class": "sloop", "pos": [40, 39]}
+            ]
+        }
+    },
+    //Island layouts
+    "islands": [
+        {
+            "name": "Anona",
+            "class": "small",
+            "tiles": [9, 9]
+        },
+        {
+            "name": "Bythiton",
+            "class": "small",
+            "tiles": [40, 40]
+        }
+    ]
+}
